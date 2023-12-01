@@ -24,19 +24,19 @@ const imageAltText = "A grey abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am an enthusiastic and dedicated programmer focusing on AI-based solutions.\nI am interested in the Solutions Architecture and Machine Learning domains and looking forward to a research-oriented career in AI and FinTech prospects.";
+  "An enthusiastic and dedicated programmer focusing on AI-based solutions.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Programming",
+  "App Development",
+  "Cloud Computing",
+  "Machine Learning",
+  "Data Analysis/Visualisation",
+  "Database Management",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am interested in the Solutions Architecture and Machine Learning domains and looking forward to a research-oriented career in AI and FinTech prospects.";
 
 const About = () => {
   return (
