@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/saksh_back.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Saksham Kumar in an open space";
 
 /**
  * Project list
@@ -31,28 +31,34 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "USGS Earthquake Data Visualisation",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This project is to build a web application that visualizes US geological data. The data is collected from the USGS (United States Geological Survey) API.",
+    url: "https://github.com/Polymath-Saksh/USGS-EQ-Data-Visualisation",
   },
   {
-    title: "Web Development for Beginners",
+    title: "VM to ASM Converter",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A Virtual Machine to ASM translator © NAND2Tetris Course in Python Language",
+    url: "https://github.com/Polymath-Saksh/VM_ASM_python",
   },
   {
-    title: "My Resume Site",
+    title: "Weather Forecasting Tool",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This program utilizes the OpenWeatherMap Geocoding API to convert a city name to its corresponding latitude and longitude coordinates. It provides a simple way to retrieve the geographic information of a city using the OpenWeatherMap service.",
+    url: "https://github.com/Polymath-Saksh/Weather-Forecasting-Tool",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Stocks Analysis Tool",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A tool to visualise Stock Analysis, deployed on Vercel",
+    url: "https://github.com/Polymath-Saksh/stocks-analysis",
+  },
+  {
+    title: "Library Management System",
+    description:
+      "Basic Library Management with both admin and user interfaces. Allows adding and removing Books, Users by Admin. As a user, it can issue, search, and return books(with fine calculation). Utilities Django as the Backend Framework, MySQL for DBMS and HTML+CSS for Frontend.",
+    url: "https://github.com/Polymath-Saksh/Library",
   },
 ];
 
