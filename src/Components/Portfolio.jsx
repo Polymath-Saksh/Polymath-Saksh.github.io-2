@@ -38,8 +38,7 @@ const projectList = [
   },
   {
     title: "VM to ASM Converter",
-    description:
-      "A Virtual Machine to ASM translator © NAND2Tetris Course in Python Language",
+    description: "A Virtual Machine to ASM translator © NAND2Tetris Course in Python Language",
     url: "https://github.com/Polymath-Saksh/VM_ASM_python",
   },
   {
@@ -50,8 +49,7 @@ const projectList = [
   },
   {
     title: "Stocks Analysis Tool",
-    description:
-      "A tool to visualise Stock Analysis, deployed on Vercel",
+    description: "A tool to visualise Stock Analysis, deployed on Vercel",
     url: "https://github.com/Polymath-Saksh/stocks-analysis",
   },
   {
@@ -59,6 +57,12 @@ const projectList = [
     description:
       "Basic Library Management with both admin and user interfaces. Allows adding and removing Books, Users by Admin. As a user, it can issue, search, and return books(with fine calculation). Utilities Django as the Backend Framework, MySQL for DBMS and HTML+CSS for Frontend.",
     url: "https://github.com/Polymath-Saksh/Library",
+  },
+  {
+    title: "K-Mer-Finder",
+    description:
+      "This project focuses on a Python script designed to identify repeating k-mers in a given nucleotide sequence obtained from the NCBI Nucleotide database.",
+    url: "https://github.com/Polymath-Saksh/K-Mer-Finder",
   },
 ];
 
@@ -70,7 +74,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft"}}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>
